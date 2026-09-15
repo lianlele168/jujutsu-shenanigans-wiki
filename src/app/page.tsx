@@ -1,5 +1,7 @@
 'use client';
 import { useState } from 'react';
+import Image from 'next/image';
+import AuthorCard from '@/components/AuthorCard';
 
 export default function HomePage() {
   const [copied, setCopied] = useState('');
@@ -39,6 +41,38 @@ export default function HomePage() {
           </a>
         </div>
       </section>
+
+      {/* E-E-A-T AUTHOR VERIFICATION */}
+      <AuthorCard />
+
+      {/* VISUAL GAMEPLAY SHOWCASE */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-6">
+        <div className="rounded-2xl overflow-hidden border border-purple-900/60 bg-purple-950/40 p-4">
+          <Image
+            src="/images/shenanigans-header.webp"
+            alt="Jujutsu Shenanigans Official Game Icon"
+            width={512}
+            height={512}
+            className="rounded-xl object-cover w-full h-56 border border-purple-800/40"
+            priority
+          />
+          <p className="text-xs text-purple-300 mt-2.5 text-center font-medium">
+            Figure 1: Official Jujutsu Shenanigans Game Icon by Tze.
+          </p>
+        </div>
+        <div className="rounded-2xl overflow-hidden border border-purple-900/60 bg-purple-950/40 p-4">
+          <Image
+            src="/images/shenanigans-gameplay.webp"
+            alt="Jujutsu Shenanigans Combat Destruction Arena"
+            width={768}
+            height={432}
+            className="rounded-xl object-cover w-full h-56 border border-purple-800/40"
+          />
+          <p className="text-xs text-purple-300 mt-2.5 text-center font-medium">
+            Figure 2: Active Combat Arena with Real-time Environmental Destruction.
+          </p>
+        </div>
+      </div>
 
       {/* Tool Nav Cards */}
       <section className="grid grid-cols-1 md:grid-cols-3 gap-5">

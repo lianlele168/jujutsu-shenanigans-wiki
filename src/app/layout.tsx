@@ -6,9 +6,6 @@ export const metadata: Metadata = {
   title: "Jujutsu Shenanigans Wiki — PvP Combo Builder, Codes & Tier List",
   description: "Comprehensive Jujutsu Shenanigans guide — Character PvP Tier List, Combo Builder, Awakening Guide, and Active Codes.",
   keywords: ["Jujutsu Shenanigans", "Jujutsu Shenanigans codes", "Jujutsu Shenanigans combos", "Jujutsu Shenanigans wiki", "Roblox"],
-  alternates: {
-    canonical: "https://jujutsushenanigans.robloxwikihub.com",
-  },
   robots: {
     index: true,
     follow: true,
