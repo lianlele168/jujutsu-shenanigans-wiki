@@ -1,3 +1,14 @@
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Jujutsu Shenanigans Awakening Guide & Domain Expansions (September 2026)',
+  description: 'How to unlock and activate awakenings in Jujutsu Shenanigans — Unlimited Void, Malevolent Shrine, and Idle Death Gamble effects and pro tips.',
+  alternates: {
+    canonical: '/awakening-guide',
+  },
+  keywords: ['jujutsu shenanigans awakening guide', 'jujutsu shenanigans domain expansion', 'jujutsu shenanigans unlimited void'],
+};
+
 export default function AwakeningGuidePage() {
   const awakenings = [
     {

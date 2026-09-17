@@ -4,6 +4,9 @@ import Image from 'next/image';
 import AuthorCard from '@/components/AuthorCard';
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: '/beginner-guide',
+  },
   title: "Jujutsu Shenanigans Beginner Guide & PvP Combat Mechanics",
   description: "Master the controls, dash cancels, down slam extensions, parry timings, and domain awakenings in Roblox Jujutsu Shenanigans.",
 };
