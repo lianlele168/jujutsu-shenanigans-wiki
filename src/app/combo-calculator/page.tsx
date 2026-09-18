@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import ComboCalculatorClient from './ComboCalculatorClient';
 
 export const metadata: Metadata = {
-  title: 'Jujutsu Shenanigans Combo Builder (September 2026)',
+  title: 'Jujutsu Shenanigans Combo Builder ',
   description: 'Master character combo strings and burst damage outputs in Jujutsu Shenanigans.',
   alternates: {
     canonical: '/calculator',

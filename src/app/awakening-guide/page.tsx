@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Jujutsu Shenanigans Awakening Guide & Domain Expansions (September 2026)',
+  title: 'Jujutsu Shenanigans Awakening Guide & Domain Expansions ',
   description: 'How to unlock and activate awakenings in Jujutsu Shenanigans — Unlimited Void, Malevolent Shrine, and Idle Death Gamble effects and pro tips.',
   alternates: {
     canonical: '/awakening-guide',

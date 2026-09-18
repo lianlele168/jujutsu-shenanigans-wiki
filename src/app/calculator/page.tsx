@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import CalculatorClient from './CalculatorClient';
 
 export const metadata: Metadata = {
-  title: 'Jujutsu Shenanigans PvP Combo Calculator & Awakening Multiplier (September 2026)',
+  title: 'Jujutsu Shenanigans PvP Combo Calculator & Awakening Multiplier ',
   description: 'Calculate combo string damage, dash cancel frame advantages, and domain awakening multipliers in Jujutsu Shenanigans.',
   alternates: {
     canonical: '/calculator',

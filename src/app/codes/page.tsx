@@ -1,19 +1,19 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Jujutsu Shenanigans Codes (September 2026) — Active Rewards',
-  description: 'Latest working Jujutsu Shenanigans codes for September 2026. Redeem for free cash, spins, and exclusive emote cosmetics.',
+  title: 'Jujutsu Shenanigans Codes — Active Rewards',
+  description: 'Latest working Jujutsu Shenanigans codes for . Redeem for free cash, spins, and exclusive emote cosmetics.',
   alternates: {
     canonical: '/codes',
   },
-  keywords: ['jujutsu shenanigans codes', 'jujutsu shenanigans codes september 2026', 'roblox jujutsu shenanigans free cash'],
+  keywords: ['jujutsu shenanigans codes', 'jujutsu shenanigans codes ', 'roblox jujutsu shenanigans free cash'],
 };
 
 export default function CodesPage() {
   return (
     <div className="space-y-6">
       <div className="border-b border-slate-800 pb-4">
-        <h1 className="text-3xl font-black text-white">Jujutsu Shenanigans Codes (September 2026)</h1>
+        <h1 className="text-3xl font-black text-white">Jujutsu Shenanigans Codes </h1>
         <p className="text-slate-400 text-sm mt-1">Tested and verified active redeem codes for Jujutsu Shenanigans.</p>
       </div>
 

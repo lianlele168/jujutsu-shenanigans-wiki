@@ -79,10 +79,10 @@ export const COMBOS_DATA: ComboChain[] = [
 ];
 
 export const SHENANIGANS_CODES_DATA: ShenanigansCode[] = [
-  { id: 'code-sorcerer2026', code: 'SHENANIGANS2026', reward: '500 Cursed Coins + Free Emote', status: 'ACTIVE', dateAdded: '2026-08-20' },
-  { id: 'code-tze', code: 'TZESHENANIGANS', reward: '250 Coins + Double EXP (30m)', status: 'ACTIVE', dateAdded: '2026-08-10' },
-  { id: 'code-skyassassin', code: 'SKYASSASSIN', reward: 'Exclusive Kill Sound Effect', status: 'ACTIVE', dateAdded: '2026-08-01' },
-  { id: 'code-domainhype', code: 'INFINITEVOID', reward: '100 Cursed Coins', status: 'ACTIVE', dateAdded: '2026-07-25' },
-  { id: 'code-feverrush', code: 'JACKPOT777', reward: 'Hakari Roulette Skin Token', status: 'ACTIVE', dateAdded: '2026-07-15' },
-  { id: 'code-destruction', code: 'DESTRUCTION2026', reward: '50 Cursed Coins', status: 'ACTIVE', dateAdded: '2026-07-01' }
+  { id: 'code-sorcerer2026', code: 'SHENANIGANS2026', reward: '500 Cursed Coins + Free Emote', status: 'ACTIVE', dateAdded: '' },
+  { id: 'code-tze', code: 'TZESHENANIGANS', reward: '250 Coins + Double EXP (30m)', status: 'ACTIVE', dateAdded: '' },
+  { id: 'code-skyassassin', code: 'SKYASSASSIN', reward: 'Exclusive Kill Sound Effect', status: 'ACTIVE', dateAdded: '' },
+  { id: 'code-domainhype', code: 'INFINITEVOID', reward: '100 Cursed Coins', status: 'ACTIVE', dateAdded: '' },
+  { id: 'code-feverrush', code: 'JACKPOT777', reward: 'Hakari Roulette Skin Token', status: 'ACTIVE', dateAdded: '' },
+  { id: 'code-destruction', code: 'DESTRUCTION2026', reward: '50 Cursed Coins', status: 'ACTIVE', dateAdded: '' }
 ];
