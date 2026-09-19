@@ -7,17 +7,17 @@ export default function AuthorCard() {
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
         <div className="flex items-center gap-3">
           <div className="w-12 h-12 rounded-full bg-gradient-to-br from-purple-500 to-indigo-600 flex items-center justify-center text-white font-black text-lg shadow-lg shadow-purple-500/20">
-            JS
+            H
           </div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="font-bold text-white text-sm sm:text-base">SpecialGrade_Satoru</span>
+              <span className="font-bold text-white text-sm sm:text-base">Hlele</span>
               <span className="inline-flex items-center gap-1 text-[11px] font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 px-2 py-0.5 rounded-full">
-                <ShieldCheck className="w-3 h-3" /> Ranked 1v1 Master
+                <ShieldCheck className="w-3 h-3" /> Editor
               </span>
             </div>
             <p className="text-xs text-purple-300">
-              Jujutsu Shenanigans Competitive Frame Data & Combo Lab Specialist • 2,500+ KOs Logged
+              AI-assisted research, human-reviewed
             </p>
           </div>
         </div>
@@ -35,7 +35,7 @@ export default function AuthorCard() {
       </div>
 
       <p className="text-xs text-purple-400/80 mt-3 pt-3 border-t border-purple-900/40 leading-relaxed">
-        <strong>Review Methodology:</strong> Hitstun frames, dash cancel timing windows, and true combo scaling damage percentages were labbed frame-by-frame on 60 FPS private testing servers.
+        <strong>Review Methodology:</strong> All data is cross-verified from multiple sources; unverified values are explicitly labeled.
       </p>
     </div>
   );
