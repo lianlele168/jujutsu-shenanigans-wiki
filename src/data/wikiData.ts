@@ -79,10 +79,14 @@ export const COMBOS_DATA: ComboChain[] = [
 ];
 
 export const SHENANIGANS_CODES_DATA: ShenanigansCode[] = [
-  { id: 'code-sorcerer2026', code: 'SHENANIGANS2026', reward: '500 Cursed Coins + Free Emote', status: 'ACTIVE', dateAdded: '' },
-  { id: 'code-tze', code: 'TZESHENANIGANS', reward: '250 Coins + Double EXP (30m)', status: 'ACTIVE', dateAdded: '' },
-  { id: 'code-skyassassin', code: 'SKYASSASSIN', reward: 'Exclusive Kill Sound Effect', status: 'ACTIVE', dateAdded: '' },
-  { id: 'code-domainhype', code: 'INFINITEVOID', reward: '100 Cursed Coins', status: 'ACTIVE', dateAdded: '' },
-  { id: 'code-feverrush', code: 'JACKPOT777', reward: 'Hakari Roulette Skin Token', status: 'ACTIVE', dateAdded: '' },
-  { id: 'code-destruction', code: 'DESTRUCTION2026', reward: '50 Cursed Coins', status: 'ACTIVE', dateAdded: '' }
+  { id: 'code-nep', code: 'A7D2L26RNEPG74A3Q', reward: 'Free Emote (unlocks the Nep achievement emote)', status: 'ACTIVE', dateAdded: '' },
+  { id: 'code-x6x31', code: 'X6X31F47UN8JM1NEP', reward: 'Expired — reward not documented by the publisher', status: 'EXPIRED', dateAdded: '' },
+  { id: 'code-ripbowe', code: 'RIPBOWE', reward: 'Expired — reward not documented by the publisher', status: 'EXPIRED', dateAdded: '' },
+  { id: 'code-jjs1year', code: 'JJS1YEAR', reward: '50 Cash and an Emote (1st anniversary)', status: 'EXPIRED', dateAdded: '' },
+  { id: 'code-whyemote', code: 'WHYEMOTEDISSAPEAR', reward: 'Expired — reward not documented by the publisher', status: 'EXPIRED', dateAdded: '' },
+  { id: 'code-slate', code: 'SLATECONCRETE', reward: 'Expired — reward not documented by the publisher', status: 'EXPIRED', dateAdded: '' },
+  { id: 'code-67', code: '67', reward: 'Expired — reward not documented by the publisher', status: 'EXPIRED', dateAdded: '' },
+  { id: 'code-370m', code: '370MVISITS', reward: 'Expired — reward not documented by the publisher', status: 'EXPIRED', dateAdded: '' },
+  { id: 'code-120m', code: '120MVISITS', reward: 'Expired — reward not documented by the publisher', status: 'EXPIRED', dateAdded: '' },
+  { id: 'code-20m', code: '20MVISITS', reward: '200 Cash (2024 milestone)', status: 'EXPIRED', dateAdded: '' }
 ];
