@@ -29,7 +29,7 @@ export default function AuthorCard() {
           </div>
           <div className="flex items-center gap-1 bg-purple-900/50 px-2.5 py-1 rounded-lg border border-purple-800/40">
             <UserCheck className="w-3.5 h-3.5 text-indigo-400" />
-            <span>Verified for Patch v2.9 (Sky Assassin)</span>
+            <span>Patch v2.9 (Sky Assassin)</span>
           </div>
         </div>
       </div>
