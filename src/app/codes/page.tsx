@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Jujutsu Shenanigans Codes — Free Cash & Emotes',
-  description: 'Verified Jujutsu Shenanigans redeem codes with the full expired archive. Redeem for free cash and exclusive emote cosmetics.',
+  description: 'Jujutsu Shenanigans redeem codes with the full expired archive. Redeem for free cash and exclusive emote cosmetics.',
   alternates: {
     canonical: '/codes',
   },

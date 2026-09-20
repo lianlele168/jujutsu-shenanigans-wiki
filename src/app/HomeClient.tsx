@@ -79,7 +79,7 @@ export default function HomeClient() {
         <a href="/codes" className="group bg-slate-900 hover:bg-slate-800 border border-slate-800 hover:border-purple-700/50 rounded-2xl p-6 space-y-3 transition-all duration-200 hover:-translate-y-1">
           <div className="text-3xl">🎁</div>
           <h2 className="text-lg font-bold text-white group-hover:text-purple-400 transition-colors">Redeem Codes</h2>
-          <p className="text-xs text-slate-400 leading-relaxed">All working codes for free Cash and Spin tickets. Verified and updated with every patch.</p>
+          <p className="text-xs text-slate-400 leading-relaxed">All working codes for free Cash and Spin tickets. Cross-checked against public sources.</p>
           <span className="text-xs text-purple-400 font-semibold">View codes →</span>
         </a>
 
