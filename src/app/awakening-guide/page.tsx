@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import PageSchema from '@/components/PageSchema';
 
 export const metadata: Metadata = {
   title: 'Jujutsu Shenanigans Awakening Guide & Domain Expansions ',
@@ -39,6 +40,7 @@ export default function AwakeningGuidePage() {
 
   return (
     <div className="space-y-8">
+      <PageSchema title="Jujutsu Shenanigans Awakening Guide & Domain Expansions " description="How to unlock and activate awakenings in Jujutsu Shenanigans — Unlimited Void, Malevolent Shrine, and Idle Death Gamble effects and pro tips." path="/awakening-guide" />
       <div className="border-b border-slate-800 pb-4">
         <h1 className="text-3xl font-black text-white">Jujutsu Shenanigans Awakening Guide</h1>
         <p className="text-slate-400 text-sm mt-1">How to unlock and maximize every character awakening — effects, activation conditions, and pro tips.</p>

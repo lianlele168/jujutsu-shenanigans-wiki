@@ -25,9 +25,38 @@ const EXPIRED_CODES = [
   { code: '20MVISITS', reward: '200 Cash (2024 milestone)' },
 ];
 
+const FAQS = [
+  {
+    q: 'Are there working Jujutsu Shenanigans codes right now?',
+    a: 'Exactly one: the Nep-series emote code listed above. This game only ever keeps one or two codes live at a time, and every older milestone code is archived below.',
+  },
+  {
+    q: 'Why do so many sites list more working codes?',
+    a: 'Most code aggregators copy historical lists and mark everything "working" without re-testing. The Nep code is the only one that redeems for anything today.',
+  },
+  {
+    q: 'How do I redeem a code in Jujutsu Shenanigans?',
+    a: 'Open the game in Roblox, find the code redemption entry in the main menu, paste the code exactly as written (it is case-sensitive), and confirm. If it fails, it has most likely been rotated out.',
+  },
+];
+
 export default function CodesPage() {
   return (
     <div className="space-y-6">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: FAQS.map((f) => ({
+              '@type': 'Question',
+              name: f.q,
+              acceptedAnswer: { '@type': 'Answer', text: f.a },
+            })),
+          }),
+        }}
+      />
       <div className="border-b border-slate-800 pb-4">
         <h1 className="text-3xl font-black text-white">Jujutsu Shenanigans Codes</h1>
         <p className="text-slate-400 text-sm mt-1">This game only ever keeps one or two codes live at a time — the current Nep-series code below is the only one working right now. Older milestone and emote codes are archived for reference.</p>
@@ -73,6 +102,25 @@ export default function CodesPage() {
           </tbody>
         </table>
       </div>
+
+      <section className="bg-slate-900/60 border border-slate-800 rounded-xl p-6 space-y-4">
+        <h2 className="text-lg font-bold text-white">Where new codes drop first</h2>
+        <p className="text-slate-300 text-sm leading-relaxed">
+          Jujutsu Shenanigans codes rotate on milestones — visit counters, anniversaries and update drops.
+          The developer posts new strings on the game&apos;s official Roblox page and social channels; when a fresh
+          code appears we test it before it moves into the active table above, and the previous one slides into the archive.
+        </p>
+      </section>
+
+      <section className="space-y-3">
+        <h2 className="text-lg font-bold text-white">Frequently asked</h2>
+        {FAQS.map((f) => (
+          <div key={f.q} className="bg-slate-900 border border-slate-800 rounded-xl p-5 space-y-1">
+            <h3 className="text-sm font-bold text-slate-200">{f.q}</h3>
+            <p className="text-slate-400 text-sm leading-relaxed">{f.a}</p>
+          </div>
+        ))}
+      </section>
     </div>
   );
 }
